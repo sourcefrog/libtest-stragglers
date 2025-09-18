@@ -1,6 +1,7 @@
 use std::{thread::sleep, time::Duration};
 
 #[test]
+#[ignore]
 fn slow_passes() {
     sleep(Duration::from_secs(10));
     assert!(true);
@@ -12,6 +13,7 @@ fn fast_passes() {
 }
 
 #[test]
+#[ignore]
 fn fast_fails() {
     assert!(false, "This test should fail");
 }
