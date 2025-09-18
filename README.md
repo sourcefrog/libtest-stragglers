@@ -1,3 +1,5 @@
-# nextest-stragglers
+# libtest-stragglers
 
-Demonstration of the need for better Nextest fail-fast handling: see < https://github.com/nextest-rs/nextest/discussions/2482>.
+Demonstration of the value of fail-fast within individual test targets.
+
+See <https://github.com/rust-lang/rust/issues/142859>.
